@@ -18,7 +18,7 @@
 #include <out123.h>
 #include <sys/stat.h>
 
-const std::string    BOT_TOKEN    = "OTMwNTY5OTA2OTAxMTIzMTEy.Yd3ywg.YbINtEFKcleM7XHFn_M4wAEmPPM";
+const std::string    BOT_TOKEN    = "lol asdlol";
 
 void toMP3(std::string name) {
 	try {
