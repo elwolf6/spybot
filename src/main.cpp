@@ -18,7 +18,7 @@
 #include <out123.h>
 #include <sys/stat.h>
 
-const std::string    BOT_TOKEN    = "lol asdlol";
+const std::string    BOT_TOKEN    = "OTMwNTY5OTA2OTAxMTIzMTEy.Yd3ywg.723a5B8jubCNhyW2MexSs_9esRU";
 
 void toMP3(std::string name) {
 	try {
@@ -88,7 +88,7 @@ std::vector<uint8_t> video(std::string url, const dpp::message_create_t& event) 
     buffer_size = mpg123_outblock(mh);
     buffer = new unsigned char[buffer_size];
 
-    mpg123_open(mh, "/home/marroq/Spy/youtube/latest.mp3");
+    mpg123_open(mh, "./youtube/latest.mp3");
     mpg123_getformat(mh, &rate, &channels, &encoding);
 
     unsigned int counter = 0;
